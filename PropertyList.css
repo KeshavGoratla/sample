@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edede9;
+}
+.header-background{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(-160deg,rgba(0,0,0,0.5),rgba(51, 37, 59, 0.3),rgba(124, 89, 144, 0.75)),url(Home2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    height: 45%;
+    width: 45%;
+    color: #f8f7ff;
+}
+.description h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.description p{
+    line-height: 1.5rem;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    outline: none;
+}
+
+#search-button {
+    background-color: #8074c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #6a0dad; /* Darker purple on hover */
+}
+.features{
+    height: 40vh;
+    width: 100%;
+    background-color: #f8f7ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card desc{
+    height: 30vh;
+    width: 100%;
+}
+.card desc p{
+    text-align: center;
+}
+.card h3{
+    margin: 10px 0;
+}
+/* .card p{
+    margin: 10px 0;
+} */
+.card button{
+    margin: 10px 0;
+    height: 30px;
+    width: 120px;
+    background-color: #e1dfef;
+    color: #9381FF;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: #624be3;
+    color: #f8f7ff;
+}
+.div-top{
+    width: 100%;
+    height: 15px;
+    background-color: #8074c2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -80px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.icon{
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #f8f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: rgb(169, 162, 162);
+}
+.content-header{
+    height: 10vh;
+    width: 50%;
+    text-align: center;
+    margin: 8% 25% 5%;
+}
+.content-header h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.content-header p{
+    line-height: 1.5rem;
+}  
+.grid-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10%;
+}
+.grid-item {
+    text-align: center;
+    background-color: #f8f9fa;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 8%;
+    border: none;
+    border-radius: 3px;
+}
+.grid-img{
+    width: 100%;
+    height: 28vh;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.grid-item-btn{
+    background-color: #fca311;
+    height: 9%;
+    width: 35%;
+    margin-left: 32%;
+    margin-top: -4%;
+    color: #edede9;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.grid-item-btn:hover{
+    background-color: #dda54a;
+}
+.Home-type{
+    margin: 5% auto;
+    color: #6c757d;
+}
+.grid-item h3{
+    font-size: 1.8rem;
+}
+.grid-address{
+    margin: 5% auto;
+    color: #624be3;
+    cursor: pointer;
+}
+.grid-address:hover{
+    color: #6a0dad;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+    background-color: #343A40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.foot{
+    height: 20vh;
+    width: 40%;
+    margin: 30% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 2rem;
+}
+.foot h2{
+    color: #edede9;
+}
+.foot p{
+    color: #edede9;
+    text-align: center;
+}
+.foot button{
+    height: 35px;
+    width: 30%;
+    background-color: #fca311;
+    margin-top: 10px;
+    border: none;
+    color: #e1dfef;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.foot button:hover{
+    background-color: #dda54a;
+}
